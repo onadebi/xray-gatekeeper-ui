@@ -2,7 +2,10 @@ const AppRoutes = () => {
     return {
         home: {
             home: '/',
-            upload_report: '/upload-report',          
+            upload_report: {
+                url:'/upload-report',
+                title: 'Report upload'
+            },          
             notFound: "/home/not-found"
         },
         
